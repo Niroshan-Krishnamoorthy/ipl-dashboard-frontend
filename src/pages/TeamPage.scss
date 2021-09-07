@@ -1,0 +1,79 @@
+.TeamPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 350px 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+
+
+    .team-name-section{
+        grid-column: span 3;
+        justify-self: start;
+        align-self: end;
+
+        .team-title{
+            font-size: 4rem;
+            margin-bottom: 10px;
+        }
+    }
+
+    .win-loss-section{
+        justify-self: center;
+        align-self: center;
+        padding: 30px;
+        text-align: center;
+        
+        p{
+            margin-bottom: 10px;
+        }
+
+        .property-title{
+            margin-top: 30px;
+            margin-left: 70px;
+            text-align: center;
+
+            .color-box{
+                left:45px;
+                top: 15px;
+                width: 15px;
+                height: 15px; 
+            }
+    
+            .win-Color{
+                background-color: #138340; 
+            }
+    
+            .loss-Color{
+                background-color: #C43B52;
+            }
+
+            p {
+                position: relative;
+                bottom: 15px;
+            }
+        }
+
+        
+    }
+
+    .match-detail-section{
+        grid-column: span 4;
+        h2{
+            margin-bottom: 5px;
+        }
+    }
+
+    .more-link{
+        justify-self: center;
+        align-self: center;
+        font-size: 1.5rem;
+        
+
+        .link-icon{
+            position: relative;
+            top: 5px;
+            right: 5px;
+        }
+    }
+}
