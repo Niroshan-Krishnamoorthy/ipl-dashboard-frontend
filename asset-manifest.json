@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Niroshan-Krishnamoorthy/ipl-dashboard-frontend/static/css/main.00cb03af.chunk.css",
-    "main.js": "/Niroshan-Krishnamoorthy/ipl-dashboard-frontend/static/js/main.2fd1939c.chunk.js",
-    "main.js.map": "/Niroshan-Krishnamoorthy/ipl-dashboard-frontend/static/js/main.2fd1939c.chunk.js.map",
-    "runtime-main.js": "/Niroshan-Krishnamoorthy/ipl-dashboard-frontend/static/js/runtime-main.918d401a.js",
-    "runtime-main.js.map": "/Niroshan-Krishnamoorthy/ipl-dashboard-frontend/static/js/runtime-main.918d401a.js.map",
-    "static/js/2.29300129.chunk.js": "/Niroshan-Krishnamoorthy/ipl-dashboard-frontend/static/js/2.29300129.chunk.js",
-    "static/js/2.29300129.chunk.js.map": "/Niroshan-Krishnamoorthy/ipl-dashboard-frontend/static/js/2.29300129.chunk.js.map",
-    "static/js/3.58ad7621.chunk.js": "/Niroshan-Krishnamoorthy/ipl-dashboard-frontend/static/js/3.58ad7621.chunk.js",
-    "static/js/3.58ad7621.chunk.js.map": "/Niroshan-Krishnamoorthy/ipl-dashboard-frontend/static/js/3.58ad7621.chunk.js.map",
-    "index.html": "/Niroshan-Krishnamoorthy/ipl-dashboard-frontend/index.html",
-    "static/css/main.00cb03af.chunk.css.map": "/Niroshan-Krishnamoorthy/ipl-dashboard-frontend/static/css/main.00cb03af.chunk.css.map",
-    "static/js/2.29300129.chunk.js.LICENSE.txt": "/Niroshan-Krishnamoorthy/ipl-dashboard-frontend/static/js/2.29300129.chunk.js.LICENSE.txt"
+    "main.css": "/ipl-dashboard-frontend/static/css/main.00cb03af.chunk.css",
+    "main.js": "/ipl-dashboard-frontend/static/js/main.2fd1939c.chunk.js",
+    "main.js.map": "/ipl-dashboard-frontend/static/js/main.2fd1939c.chunk.js.map",
+    "runtime-main.js": "/ipl-dashboard-frontend/static/js/runtime-main.60a06d62.js",
+    "runtime-main.js.map": "/ipl-dashboard-frontend/static/js/runtime-main.60a06d62.js.map",
+    "static/js/2.29300129.chunk.js": "/ipl-dashboard-frontend/static/js/2.29300129.chunk.js",
+    "static/js/2.29300129.chunk.js.map": "/ipl-dashboard-frontend/static/js/2.29300129.chunk.js.map",
+    "static/js/3.58ad7621.chunk.js": "/ipl-dashboard-frontend/static/js/3.58ad7621.chunk.js",
+    "static/js/3.58ad7621.chunk.js.map": "/ipl-dashboard-frontend/static/js/3.58ad7621.chunk.js.map",
+    "index.html": "/ipl-dashboard-frontend/index.html",
+    "static/css/main.00cb03af.chunk.css.map": "/ipl-dashboard-frontend/static/css/main.00cb03af.chunk.css.map",
+    "static/js/2.29300129.chunk.js.LICENSE.txt": "/ipl-dashboard-frontend/static/js/2.29300129.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.918d401a.js",
+    "static/js/runtime-main.60a06d62.js",
     "static/js/2.29300129.chunk.js",
     "static/css/main.00cb03af.chunk.css",
     "static/js/main.2fd1939c.chunk.js"
