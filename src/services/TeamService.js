@@ -1,5 +1,5 @@
 
-const TEAM_BASE_URL = "http://localhost:8080/team/"
+const TEAM_BASE_URL = "https://ipl-spring-app.herokuapp.com/team/"
 
 class TeamService {
 
