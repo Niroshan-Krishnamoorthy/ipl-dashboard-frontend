@@ -19,7 +19,7 @@ export const YearSelector = ({ teamName }) => {
             <ul>
                 {
                     matchYears.map(matchYear => (
-                        <li>
+                        <li key={matchYear}>
                             <Link to={`/teams/${teamName}/matches/${matchYear}`}>
                                 <button className="year-button">{matchYear}</button>
                             </Link>

@@ -13,9 +13,12 @@ export const HomePage = () => {
             const data = await response.json()
             setTeams(data)
         }
-
         fetchData()
-    })
+
+        return ()=>{
+            setTeams([])
+        }
+    },[])
 
     return (
         <div className="HomePage">
@@ -25,7 +28,7 @@ export const HomePage = () => {
             <div className="team-grid">
             {
                 teams.map(team=>(
-                    <TeamTile teamName={team.teamName}/>
+                    <TeamTile key={team.id} teamName={team.teamName}/>
                 ))
             }
             </div>

@@ -19,6 +19,10 @@ export const MatchPage = () => {
         }
         fetchData()
 
+        return ()=>{
+            setMatches([])
+        }
+
     }, [teamName, year])
 
     return (
@@ -31,7 +35,7 @@ export const MatchPage = () => {
                 {matches.length === 0 ?
                     <div className="no-match-div">{`No Matches for ${year}`} </div>
                     : (
-                        matches.map(match => <MatchDetailCard teamName={teamName} match={match} />)
+                        matches.map(match => <MatchDetailCard key={match.id} teamName={teamName} match={match} />)
 
                     )}
 

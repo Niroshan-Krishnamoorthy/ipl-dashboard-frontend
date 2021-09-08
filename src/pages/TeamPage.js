@@ -22,6 +22,10 @@ export const TeamPage = () => {
         }
         fetchData()
 
+        return () => {
+            setTeam({ matches: [] })
+        }
+
     }, [teamName])
 
     const wins = team.totalWins
@@ -34,7 +38,7 @@ export const TeamPage = () => {
     return (
         <div className="TeamPage">
             <div className="team-header">
-                <Link to="/"><div className="home-page-button"><BiArrowBack className="homepage-link-icon"/> Home Page</div></Link>
+                <Link to="/"><div className="home-page-button"><BiArrowBack className="homepage-link-icon" /> Home Page</div></Link>
                 <h1 className="team-title">{team.teamName}</h1>
             </div>
             <div className="win-loss-section">
