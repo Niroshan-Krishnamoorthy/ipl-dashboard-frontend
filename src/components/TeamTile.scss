@@ -1,0 +1,16 @@
+.TeamTile{
+    height: 150px;
+    border: 1px solid white;
+    text-align: center;
+
+    h2{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+}
+
+.TeamTile:hover{
+    background-color: white;
+    color: #282c34;
+    cursor: pointer;
+}

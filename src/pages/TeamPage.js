@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { MatchDetailCard } from '../components/MatchDetailCard'
 import { MatchSmallCard } from '../components/MatchSmallCard'
 import teamService from '../services/TeamService'
 import './TeamPage.scss';
 import { BiRightArrowAlt } from "react-icons/bi";
 import { CustomPieChart } from '../components/CutomPieChart'
+import { BiArrowBack } from "react-icons/bi";
 
 export const TeamPage = () => {
 
@@ -32,7 +33,8 @@ export const TeamPage = () => {
 
     return (
         <div className="TeamPage">
-            <div className="team-name-section">
+            <div className="team-header">
+                <Link to="/"><div className="home-page-button"><BiArrowBack className="homepage-link-icon"/> Home Page</div></Link>
                 <h1 className="team-title">{team.teamName}</h1>
             </div>
             <div className="win-loss-section">
@@ -52,7 +54,7 @@ export const TeamPage = () => {
                 team.matches.slice(1).map(match => <MatchSmallCard key={match.id} teamName={team.teamName} match={match} />)
             }
             <div className="more-link">
-                <a href="#">More <BiRightArrowAlt className="link-icon" /> </a>
+                <Link to={`/teams/${teamName}/matches/2020`}>More <BiRightArrowAlt className="link-icon" /></Link>
             </div>
         </div>
     )

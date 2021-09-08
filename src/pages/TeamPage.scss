@@ -7,14 +7,35 @@
 
 
 
-    .team-name-section{
+    .team-header{
         grid-column: span 3;
         justify-self: start;
-        align-self: end;
+        align-self: flex-end;
+
+        .home-page-button{
+            padding: 10px;
+            border: 1px solid white;
+            width: 100px;
+            // background-color: white;
+            color: white;
+            display: inline;
+
+            .homepage-link-icon{
+                position: relative;
+                top:2px
+            }
+        }
+
+        .home-page-button:hover{
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            background-color: white;
+            color: #282c34;
+        }
 
         .team-title{
             font-size: 4rem;
             margin-bottom: 10px;
+            margin-top: 150px;
         }
     }
 

@@ -1,0 +1,35 @@
+.YearSelector{
+    padding: 10px;
+    
+    li{
+        margin-top: 10px;
+        list-style-type: none;
+        text-align: center;
+
+        .year-button{
+            padding: 10px;
+            border: none;
+            background: none;
+            border: 1px solid white;
+            color:white;
+            font-size: 15px;
+        }
+
+        .year-button:focus{
+            padding: 10px;
+            border: none;
+            background: none;
+            border: 1px solid white;
+            background-color: white;
+            color: #282c34;
+            font-size: 15px;
+        }
+
+        .year-button:hover{
+            background-color: white;
+            color: #282c34;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            cursor: pointer;
+        }
+    }
+}

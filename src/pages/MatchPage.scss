@@ -1,0 +1,25 @@
+.MatchPage{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-column-gap: 20px;
+
+    .year-select{
+        justify-self: end;
+    }
+
+    .matchPage-title{
+        margin: 10px auto;
+    }
+
+    .no-match-div{
+        width: 100%;
+        height: 150px;
+        background-color: #1b78cf;
+        text-align: center;
+        font-size: 30px;
+        color:rgb(247, 247, 247);
+        font-weight: 400;
+        padding: 50px;
+        margin-top: 50px;
+    }
+}

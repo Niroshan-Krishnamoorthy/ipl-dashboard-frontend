@@ -1,0 +1,14 @@
+.HomePage{
+    .homepage-title{
+        margin: 20px auto;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .team-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+}
